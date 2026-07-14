@@ -15,3 +15,67 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+.register-btn-blue {
+  background-color: #1d52d9;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+}
+.register-btn-blue:hover {
+  background-color: #1541b0;
+}
+
+.nav-bar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaecf0;
+  width: 100%;
+}
+.nav-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+.logo-area {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+.logo-box {
+  background-color: #0b1523;
+  color: #ffffff;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 14px;
+  margin-right: 8px;
+}
+.logo-title {
+  font-size: 16px;
+  font-weight: 800;
+}
+.menu-items {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.menu-items a {
+  color: #475467;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.menu-items a:hover {
+  color: #0c111d;
+}
+.right-btn-area {
+  width: 300px;
+  text-align: right;
+}
