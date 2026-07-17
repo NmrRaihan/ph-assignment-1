@@ -409,3 +409,138 @@ body {
   color: #475467;
   font-size: 14px;
 }
+
+/* ====================================
+   HACKATHON BOUNTIES BOARD
+==================================== */
+
+.bounties-section {
+    padding: 90px 0 0;
+    background: #ffffff;
+}
+
+.bounties-container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bounties-section .main-section-title {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 14px;
+}
+
+.bounties-subtitle {
+    width: 720px;
+    margin: 0 auto 55px;
+    font-size: 15px;
+    color: #667085;
+    line-height: 1.7;
+}
+
+.bounties-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.bounty-card {
+    width: 384px;
+    background: #ffffff;
+    border: 1px solid #e4e7ec;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    transition: all 0.25s ease;
+}
+
+.bounty-card:hover {
+    transform: translateY(-6px);
+    border-color: #1d52d9;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+}
+
+.bounty-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #f2f4f7;
+    color: #344054;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.bounty-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #101828;
+    line-height: 1.4;
+    margin-bottom: 14px;
+}
+
+.bounty-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #667085;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+
+.bounty-footer {
+    display: flex;
+    align-items: flex-start;
+    border-top: 1px solid #eaecf0;
+    padding-top: 18px;
+}
+
+.bounty-footer span {
+    width: 50%;
+    font-size: 15px;
+    font-weight: 700;
+    color: #101828;
+    line-height: 1.4;
+}
+
+.bounty-footer span:last-child {
+    text-align: right;
+}
+
+.bounty-footer strong {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #98a2b3;
+    margin-bottom: 6px;
+}
+
+/* ====================================
+   DEADLINE TICKER
+==================================== */
+
+.bounties-ticker {
+    background: #0b1523;
+    margin-top: 70px;
+}
+
+.ticker-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticker-container div {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
